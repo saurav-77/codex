@@ -5,8 +5,8 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import Home from "./Component/Home";
-import CodeEditor from "./Component/CodeEditor";
+import Home from "./component/Home";
+import CodeEditor from "./component/CodeEditor";
 
 const App = () => {
   const router = createBrowserRouter(
